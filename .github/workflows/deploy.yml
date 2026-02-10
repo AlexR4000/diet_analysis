@@ -24,7 +24,7 @@ jobs:
 
     - name: Run data analysis script
       run: |
-        python data_analysis.py
+        python diet_analysis.py
 
     - name: Build Docker image
       run: |
